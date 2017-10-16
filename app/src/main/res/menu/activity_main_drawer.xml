@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnuDashboard"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/mnuIndexer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Indexer" />
+        <item
+            android:id="@+id/mnuSearch"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Search" />
+    </group>
+
+    <item android:title="Connection">
+        <menu>
+            <item
+                android:id="@+id/mnuClose"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Close" />
+        </menu>
+    </item>
+
+</menu>
